@@ -6,6 +6,7 @@ const BlogJSON = () => {
 
     const [users, setUsers] = useState([]);
     const API_URL = 'https://jsonplaceholder.typicode.com/users';
+    const [items] = useState(API);
 
     useEffect(() => {
         const getData = async () => {
