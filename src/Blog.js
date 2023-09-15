@@ -1,13 +1,11 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import API from './API.js';
-import Header from './Header.js';
 
 const BlogJSON = () => {
 
     const [users, setUsers] = useState([]);
     const API_URL = 'https://jsonplaceholder.typicode.com/users';
-    const [items,seItems] = useState(API);
 
     useEffect(() => {
         const getData = async () => {
