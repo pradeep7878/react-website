@@ -1,0 +1,196 @@
+/* ABOUT--------------------------------------- */
+
+
+.about{
+    margin: 5rem auto;
+    transition: 0.6s;
+}
+.about img{
+    width: 100%;
+    animation: about 8s linear infinite;
+    transition: 0.7s;
+}
+
+@keyframes about{
+    0%{
+        transform: translateY(30px);
+    }
+    50%{
+        transform: translateY(0px);
+    }
+    100%{
+        transform: translateY(30px);
+    }
+}
+
+
+.heading{
+    font-size: 2.2rem;
+    transition: 0.6s;
+    margin: .7rem 0;
+    color: red;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-top: 5rem;
+}
+.sub-heading{
+    font-size: 1.5rem;
+    transition: 0.6s;
+    margin: .7rem 0;
+}
+.paragraph{
+    font-size: 1rem;
+    text-align: justify;
+    transition: 0.6s;
+    color: rgb(93, 93, 93);
+}
+
+
+
+
+/* SERVICES--------------------------------------- */
+
+.services{
+    margin: 6rem 0;
+    transition: 0.6s;
+}
+.services .container{
+    text-align: center;
+}
+.card {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 2rem;
+    transition: 0.6s;
+    border: none;
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.4);
+}
+
+.btn{
+    background-color: rgb(1, 145, 161) !important;
+    color: white !important;
+}
+.card img{
+    width: 16rem;
+    height: 14rem;
+    object-fit: cover;
+    margin: .8rem auto;
+}
+.card-text,.card-title{
+    text-align:center;
+}
+.card-title{
+    height: 3rem;
+    padding: auto 0 !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-text{
+    height: 9rem;
+
+    padding: auto 0 !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+/* CONTACT--------------------------------------- */
+
+.container-fluid{
+    padding: 0 !important;
+}
+.contact {
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('../images/contactus.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding: 3rem 4rem;
+}
+.contact h1{
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 3rem;
+    color: white;
+}
+.contact input,
+.contact textarea{
+    margin: 1.5rem;
+    width: 90%;
+}
+.contact .btn{
+    margin: 0.3rem 1.5rem;
+}
+
+
+
+
+/* CALL TO ACTION----------------------------------------- */
+
+.bot-div {
+    position: fixed;
+    bottom: 300px;
+    right: 15px;
+    width: 50px;
+    height: 40px;
+    color: #ffffff;
+	font-size: 14px;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-o-border-radius: 10px;
+	line-height: 38px;
+	text-align: center;
+	z-index: 1000;
+	cursor: pointer;
+	/*background: #8A2BE2;*/
+	transition:all 1s linear;
+}
+.bot-div .social-media:hover {
+    transform:translateX(-4px);
+}
+
+
+
+/* FOOTER----------------------------------------- */
+
+footer{
+    background-color: #121111;
+    height: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 60px;
+}
+footer p{
+    color: white;
+    text-align: center;
+    transform: translateY(50%);
+}
+.footer-icons .icon{
+    font-size: 17px;
+    margin: 0 0.3rem ;
+}
+.icon.facebook{
+    /* background-color: #1877f2; */
+    color:#1877f2 ;
+}
+.footer-icons a {
+    color: white;
+}
+.icon.instagram{
+    /* background-color: #c32aa3; */
+    color:#f46f30 !important ;
+}
+.icon.twitter{
+    /* background-color: #1da1f2; */
+    color:#1da1f2 ;
+}
+
+
