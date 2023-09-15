@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-
+import logo from './images/logo.svg';
+import Headercss from './css/Header.css';
 
 const Header = () => {
 
@@ -22,6 +23,7 @@ const Header = () => {
                             <li><Link to='/contact'>Contact Us</Link></li>
                         </ul>
                     </header>
+
             </section>
 
         </>
