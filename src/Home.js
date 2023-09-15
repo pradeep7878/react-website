@@ -1,11 +1,8 @@
 import React from 'react';
-import Header from './Header.js';
-import {FaFacebook, FaInstagram, FaPhoneAlt, FaTwitter} from 'react-icons/fa';
+import {FaPhoneAlt} from 'react-icons/fa';
 import {FaWhatsapp} from 'react-icons/fa';
 import './css/Home.css';
 import 'bootstrap/dist/css/bootstrap.css';
-import Card from './Card.js';
-import Data from './Data.js';
 import About from './About.js';
 import Services from './Services.js';
 import Contact from './Contact.js';
@@ -14,7 +11,7 @@ import BlogJSON from './Blog.js';
 const Home = () => {
   return (
     <>
-  
+
 <div className="container-fluid banner">
 
 <div className="banner-content">
